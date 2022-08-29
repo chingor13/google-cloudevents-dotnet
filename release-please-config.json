@@ -5,7 +5,10 @@
   "include-v-in-tag": false,
   "packages": {
     ".": {
-      "component": "Google.CloudEvents.Protobuf"
+      "component": "Google.CloudEvents.Protobuf",
+      "extra-files": [
+        {"type": "xml", "path": "src/ProductionProperties", "xpath": "//Project/PropertyGroup/Version"}
+      ]
     }
   }
 }
