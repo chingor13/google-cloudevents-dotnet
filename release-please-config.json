@@ -7,7 +7,7 @@
     ".": {
       "component": "Google.CloudEvents.Protobuf",
       "extra-files": [
-        {"type": "xml", "path": "src/ProductionProperties", "xpath": "//Project/PropertyGroup/Version"}
+        {"type": "xml", "path": "src/ProductionProperties.xml", "xpath": "//Project/PropertyGroup/Version"}
       ]
     }
   }
